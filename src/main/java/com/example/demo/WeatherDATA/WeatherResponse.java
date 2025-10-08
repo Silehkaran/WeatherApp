@@ -39,7 +39,6 @@ public class WeatherResponse {
         return "No data";
     }
 
-
     public static class Main{
         @JsonProperty("temp")
         public double temp;

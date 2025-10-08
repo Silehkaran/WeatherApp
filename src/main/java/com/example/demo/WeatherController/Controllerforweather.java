@@ -21,9 +21,6 @@ public class Controllerforweather {
     // دلیل استفاده از متد getmapping هم مشخصه ما فقط میخواییم اطلاعات رو بگیریم همین
 
 
-
-
-
     @GetMapping(value = "/2/{city}" , produces = {MediaType.APPLICATION_XML_VALUE , MediaType.APPLICATION_JSON_VALUE})
     public WeatherResponse getWeather(@PathVariable String city) throws JsonProcessingException {
         return serviceforweather.GETweather(city);

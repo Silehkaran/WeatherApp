@@ -1,7 +1,6 @@
 package com.example.demo.WeatherDATA;
 
 import lombok.Setter;
-
 import java.time.LocalDateTime;
 
 public class WeatherData {
